@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    min-height: 100vh;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    background: white;
+    width: 350px;
+    border-radius: 8px;
+}
+
+#Instagram {
+    width: 500px;
+    height: auto;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-container i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #0095F6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#or {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #888;
+}
+
+#or::before,
+#or::after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background: #ccc;
+    top: 50%;
+}
+
+#or::before {
+    left: 0;
+}
+
+#or::after {
+    right: 0;
+}
+
+.fb-login {
+    font-weight: bold;
+    color: #385185;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sign-up {
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #ddd;
+    background: white;
+    margin-top: 10px;
+}
+
+.sign-link {
+    color: #0095F6;
+    font-weight: bold;
+}
+
+.get-app {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.store {
+    display: flex;
+    gap: 10px;
+}
+
+.store img {
+    width: 135px;
+}
